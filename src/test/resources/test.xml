@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document>
+        <name>Location history from 2017-03-27 to 2017-03-27</name>
+        <open>1</open>
+        <description></description>
+        <StyleMap id="multiTrack">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#multiTrack_n</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#multiTrack_h</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Style id="multiTrack_n">
+            <IconStyle>
+                <Icon>
+                    <href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+                </Icon>
+            </IconStyle>
+            <LineStyle>
+                <color>99ffac59</color>
+                <width>6</width>
+            </LineStyle>
+        </Style>
+        <Style id="multiTrack_h">
+            <IconStyle>
+                <scale>1.2</scale>
+                <Icon>
+                    <href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+                </Icon>
+            </IconStyle>
+            <LineStyle>
+                <color>99ffac59</color>
+                <width>8</width>
+            </LineStyle>
+        </Style>
+        <Placemark>
+            <name>Lingonvägen 38</name>
+            <address>Lingonvägen 38, 435 44 Mölnlycke, Sverige</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>ceciliaedvardsson@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value></value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description>from 2017-03-26T18:43:27.990Z to 2017-03-27T05:12:33.000Z. Distance 0m</description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>12.1168432 57.6530661 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2017-03-26T18:43:27.990Z</begin>
+                <end>2017-03-27T05:12:33.000Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Driving</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>ceciliaedvardsson@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>Driving</value>
+                </Data>
+                <Data name="Distance">
+                    <value>2043</value>
+                </Data>
+            </ExtendedData>
+            <description>Driving from 2017-03-27T05:12:33.000Z to 2017-03-27T05:17:08.315Z. Distance 2043m</description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>12.1168432 57.6530661 0</gx:coord>
+                <gx:coord>12.1168432 57.6530661 0</gx:coord>
+                <gx:coord>12.1161262 57.6527305 0</gx:coord>
+                <gx:coord>12.114445 57.6525387 0</gx:coord>
+                <gx:coord>12.1141377 57.6532714 0</gx:coord>
+                <gx:coord>12.1162839 57.654053 0</gx:coord>
+                <gx:coord>12.1178498 57.6553533 0</gx:coord>
+                <gx:coord>12.1189599 57.6560633 0</gx:coord>
+                <gx:coord>12.1200569 57.656518 0</gx:coord>
+                <gx:coord>12.121357 57.6565776 0</gx:coord>
+                <gx:coord>12.1233204 57.6566332 0</gx:coord>
+                <gx:coord>12.1264032 57.6562584 0</gx:coord>
+                <gx:coord>12.1281096 57.6549067 0</gx:coord>
+                <gx:coord>12.1290648 57.6542491 0</gx:coord>
+                <gx:coord>12.1284867 57.6536579 0</gx:coord>
+                <gx:coord>12.128979 57.6528393 0</gx:coord>
+                <gx:coord>12.1286846 57.6517529 0</gx:coord>
+                <gx:coord>12.1278256 57.6514744 0</gx:coord>
+                <gx:coord>12.1231808 57.651030600000006 0</gx:coord>
+                <gx:coord>12.1231808 57.651030600000006 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2017-03-27T05:12:33.000Z</begin>
+                <end>2017-03-27T05:17:08.315Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Förskola Djupedal</name>
+            <address>Rullstensvägen 3, 435 41 Mölnlycke, Sverige</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>ceciliaedvardsson@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>Förskola</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description>Förskola from 2017-03-27T05:17:08.315Z to 2017-03-27T05:30:18.653Z. Distance 0m</description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>12.1231808 57.651030600000006 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2017-03-27T05:17:08.315Z</begin>
+                <end>2017-03-27T05:30:18.653Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>On a bus</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>ceciliaedvardsson@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>On a bus</value>
+                </Data>
+                <Data name="Distance">
+                    <value>11072</value>
+                </Data>
+            </ExtendedData>
+            <description>On a bus from 2017-03-27T05:30:18.653Z to 2017-03-27T05:53:28.629Z. Distance 11072m
+            </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>12.1231808 57.651030600000006 0</gx:coord>
+                <gx:coord>12.1231808 57.651030600000006 0</gx:coord>
+                <gx:coord>12.1243635 57.650488 0</gx:coord>
+                <gx:coord>12.1289237 57.6528125 0</gx:coord>
+                <gx:coord>12.1161747 57.6573747 0</gx:coord>
+                <gx:coord>12.1089464 57.657981 0</gx:coord>
+                <gx:coord>12.091911 57.6676539 0</gx:coord>
+                <gx:coord>12.0254482 57.6750551 0</gx:coord>
+                <gx:coord>12.0256941 57.6746458 0</gx:coord>
+                <gx:coord>12.0255763 57.6746005 0</gx:coord>
+                <gx:coord>12.0255414 57.6745887 0</gx:coord>
+                <gx:coord>12.0255933 57.6746322 0</gx:coord>
+                <gx:coord>12.025596 57.6746418 0</gx:coord>
+                <gx:coord>12.0255575 57.6747693 0</gx:coord>
+                <gx:coord>12.0255021 57.6749232 0</gx:coord>
+                <gx:coord>12.0254394 57.6751113 0</gx:coord>
+                <gx:coord>12.0066436 57.6876767 0</gx:coord>
+                <gx:coord>11.9971444 57.6971332 0</gx:coord>
+                <gx:coord>11.9905405 57.696829 0</gx:coord>
+                <gx:coord>11.9867755 57.6968302 0</gx:coord>
+                <gx:coord>11.9869126 57.6966293 0</gx:coord>
+                <gx:coord>11.9869126 57.6966293 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2017-03-27T05:30:18.653Z</begin>
+                <end>2017-03-27T05:53:28.629Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Göteborg Korsvägen</name>
+            <address>412 52 Göteborg, Sverige</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>ceciliaedvardsson@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>Kollektivtrafiksstation</value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description>Kollektivtrafiksstation from 2017-03-27T05:53:28.629Z to 2017-03-27T06:00:14.023Z. Distance
+                0m
+            </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>11.9869126 57.6966293 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2017-03-27T05:53:28.629Z</begin>
+                <end>2017-03-27T06:00:14.023Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>On a tram</name>
+            <address></address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>ceciliaedvardsson@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value>On a tram</value>
+                </Data>
+                <Data name="Distance">
+                    <value>4165</value>
+                </Data>
+            </ExtendedData>
+            <description>On a tram from 2017-03-27T06:00:14.023Z to 2017-03-27T06:07:53.530Z. Distance 4165m
+            </description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>11.9869126 57.6966293 0</gx:coord>
+                <gx:coord>11.9869126 57.6966293 0</gx:coord>
+                <gx:coord>11.9855592 57.6965874 0</gx:coord>
+                <gx:coord>11.985209 57.7005772 0</gx:coord>
+                <gx:coord>11.9851603 57.703729 0</gx:coord>
+                <gx:coord>11.9834231 57.7050645 0</gx:coord>
+                <gx:coord>11.9862103 57.7080344 0</gx:coord>
+                <gx:coord>11.9865724 57.7081625 0</gx:coord>
+                <gx:coord>11.9860654 57.7083181 0</gx:coord>
+                <gx:coord>11.9861319 57.6966224 0</gx:coord>
+                <gx:coord>11.9914194 57.7081643 0</gx:coord>
+                <gx:coord>11.991374299999999 57.7086815 0</gx:coord>
+                <gx:coord>11.991374299999999 57.7086815 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2017-03-27T06:00:14.023Z</begin>
+                <end>2017-03-27T06:07:53.530Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Johan Willins gata 6</name>
+            <address>Johan Willins gata 6, 416 64 Göteborg, Sverige</address>
+            <ExtendedData>
+                <Data name="Email">
+                    <value>ceciliaedvardsson@gmail.com</value>
+                </Data>
+                <Data name="Category">
+                    <value></value>
+                </Data>
+                <Data name="Distance">
+                    <value>0</value>
+                </Data>
+            </ExtendedData>
+            <description>from 2017-03-27T06:07:53.530Z to 2017-03-27T11:02:01.296Z. Distance 0m</description>
+            <Point>
+                <coordinates></coordinates>
+            </Point>
+            <gx:Track>
+                <altitudeMode>clampToGround</altitudeMode>
+                <gx:coord>11.991374299999999 57.7086815 0</gx:coord>
+            </gx:Track>
+            <TimeSpan>
+                <begin>2017-03-27T06:07:53.530Z</begin>
+                <end>2017-03-27T11:02:01.296Z</end>
+            </TimeSpan>
+        </Placemark>
+    </Document>
+</kml>
