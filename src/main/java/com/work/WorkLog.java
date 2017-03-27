@@ -19,13 +19,16 @@ public class WorkLog {
 
         int year;
         int weekNo;
-        if (args.length == 0) {
-            Calendar cal = Calendar.getInstance();
-            year = cal.get(Calendar.YEAR);
-            weekNo = cal.get(Calendar.WEEK_OF_YEAR);
-        } else {
-            year = new Integer(args[0]);
-            weekNo = new Integer(args[1]);
+
+        Calendar cal = Calendar.getInstance();
+        year = cal.get(Calendar.YEAR);
+        weekNo = cal.get(Calendar.WEEK_OF_YEAR);
+
+        if (args.length == 1) {
+            weekNo = new Integer(args[0]);
+        } else if(args.length > 1) {
+            year = Integer.parseInt(args[0]);
+            weekNo = Integer.parseInt(args[1]);
         }
         WorkWeek workWeek = downloadFile(year, weekNo);
         parseXml(workWeek);
@@ -54,7 +57,7 @@ public class WorkLog {
     }
 
     private static void downloadFile(int year, int month, int day) throws IOException, InterruptedException {
-        System.out.println("Downloading " + year + "-" + month + "-" + day);
+        System.out.println("Downloading " + year + "-" + (month + 1) + "-" + day);
         String url = "https://www.google.com/maps/timeline/kml?authuser=0&pb=!1m8" +
                 "!1m3!1i" + year + "!2i" + month + "!3i" + day +
                 "!2m3!1i" + year + "!2i" + month + "!3i" + day;
