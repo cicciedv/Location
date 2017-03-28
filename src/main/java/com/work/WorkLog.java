@@ -1,5 +1,6 @@
 package com.work;
 
+import org.apache.commons.io.FileUtils;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
@@ -48,7 +49,12 @@ public class WorkLog {
             WorkDay workDay = new WorkDay(thisYear, thisMonth + 1, thisDate, i + 1);
             workWeek.getWorkDayList().add(workDay);
             File file = new File(getFileName(workDay));
-            if (!file.exists() || file.isDirectory()) {
+            if (file.exists() && !file.isDirectory()) {
+                if(file.length() < 1000L) {
+                    file.delete();
+                    downloadFile(thisYear, thisMonth, thisDate);
+                }
+            } else {
                 downloadFile(thisYear, thisMonth, thisDate);
             }
         }
